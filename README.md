@@ -1,7 +1,7 @@
 # Machine Learning Examples
 ## Simple and Multiple Linear Regression
 ### Used for predicting a continuous target variable based on one (simple) or multiple (multiple) independent variables by modeling a linear relationship.
-## K Nearest Neighbor 
+## K Nearest Neighbor (KNN)
 ### A versatile algorithm used for both classification and regression by predicting the target of a data point based on the majority (classification) or average (regression) of its nearest neighbors.
 ## Desision Trees
 ### A flowchart-like model used for both classification and regression, splitting data based on feature values to make predictions or decisions.
