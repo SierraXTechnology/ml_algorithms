@@ -11,4 +11,8 @@
 ### A linear model used for binary (or multi-class) classification tasks by modeling the probability of class membership.
 ## Support Vector Machines (SVM)
 ### A supervised machine learning algorithm primarily used for classification and regression tasks, which works by finding the optimal hyperplane that maximizes the margin between classes in a high-dimensional space
+## Multi-Class Predictors
+### SoftMax Similar to Logistic Regression
+### One-vs-All
+### One-vs-Rest
 
