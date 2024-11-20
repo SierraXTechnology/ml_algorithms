@@ -9,4 +9,6 @@
 ### A specific type of decision tree used exclusively for predicting continuous target variables by recursively partitioning the feature space and averaging within each region.
 ## Logistic Regression
 ### A linear model used for binary (or multi-class) classification tasks by modeling the probability of class membership.
+## Support Vector Machines (SVM)
+### A supervised machine learning algorithm primarily used for classification and regression tasks, which works by finding the optimal hyperplane that maximizes the margin between classes in a high-dimensional space
 
