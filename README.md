@@ -16,5 +16,5 @@
 ### One-vs-All
 ### One-vs-Rest
 ## Clustering
-### K-Means
+### K-Means and PCA Composition
 
