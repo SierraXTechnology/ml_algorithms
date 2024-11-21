@@ -5,6 +5,20 @@ import itertools
 plot_colors = "ryb"
 plot_step = 0.02
 
+def k_means_plot(labels, centers, X):
+    fig = plt.figure()
+    colors = plt.cm.Spectral(np.linspace(0, 1, len(set(labels))))
+    ax = fig.add_subplot(111)
+    for k, col in zip(range(len(centers)), colors):
+        my_members = (labels == k)
+        cluster_center = centers[k]
+        ax.plot(cluster_center[0], cluster_center[1], 'o', markerfacecolor=col, markeredgecolor='k', markersize=6)
+        ax.plot(X[my_members, 0], X[my_members, 1], 'w', markerfacecolor=col, marker='.')
+    ax.set_title('KMeans')
+    ax.set_xticks(())
+    ax.set_yticks(())
+    plt.show()
+
 def plot_confusion_matrix(cm, classes, normalize=False, title='Confusion matrix', cmap=plt.cm.Blues):
     if normalize:
         cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
@@ -80,3 +94,7 @@ def plot_probability_array(X,probability_array):
     plt.colorbar()
     plt.show()
 
+def warn(*args, **kwargs):
+    pass
+import warnings
+warnings.warn = warn
